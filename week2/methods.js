@@ -8,7 +8,7 @@
     {...}            and send it to this block of code (print the value of the 'fruit' variable through the loop in a sentence)
 */
 let fruits = ['apples', 'bananas', 'oranges'];
-for (let fruitsItem of fruits){
+for (let fruitsItem of fruits) {
     console.log("I like " + fruitsItem + "!")
 }
 /*
@@ -88,7 +88,7 @@ console.log(findName);
  // result: walt
  
 // filter
-let filterName = names.filter(name => name !=='walt');
+let filterName = names.filter(itemInArray => itemInArray !=='walt');
 console.log(filterName);
  //result: [ 'lucy', 'metzi', 'ross' ]
 

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Embedding Media</title>
+</head>
+<body>
+    <header></header>
+    <h4>Image Upload From Outside Resource:</h4>
+    <img src="https://images.unsplash.com/photo-1584303597973-0401cd1f9796?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="A cute doggie." id="pic-from-outside"/>
+    <h4>Image Upload From Within Project:</h4>
+    <img src="./assets/snowy-lucy.jpeg" alt="A snowy Lucy dog." id="pic-from-inside"/>
+    <h4>Embedding using Canvas</h4>
+    <canvas width="500" height="500">
+        <img src="./assets/queen-lucy.jpeg" width="2000" height="200" alt="Queen Lucy"/>
+    </canvas>
+    <h4>Embedding using iframe:</h4>
+    <p>Shows something that is on another webpage. Like a window to that web page. These will slow down a page.</p>
+    <iframe src="https://picsum.photos/500/200" frameborder="1" width="350" height="350"></iframe>
+    <p>You cannot just embed another website using iframe - you can only embed media this way:</p>
+    <iframe src="https//www.google.com" width="350" height="350" frameborder="0"></iframe>
+    <p>Embedding a video from YouTube:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWbihl5VAxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

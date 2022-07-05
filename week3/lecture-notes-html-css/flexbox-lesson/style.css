@@ -1,0 +1,25 @@
+body {
+    background-color: #bebebe;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-items {
+    width: 150px;
+    height: 300px;
+}
+
+.item1 {
+    border: 3px solid red;
+}
+
+.item2 {
+    border: 3px solid white;
+}
+
+.item3 {
+    border: 3px solid blue;
+}

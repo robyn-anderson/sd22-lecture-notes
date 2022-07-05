@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>DOM Lesson</title>
+</head>
+<body>
+    <div id="list">
+        <h1 id="listTitle">To Do List</h1>
+        <div id="toDoList">
+            <ul id="ulToDo">
+                <li class="listItem">Clean kitchen</li>
+                <li class="listItem">Do laundry</li>
+                <li class="listItem">Pack clothes</li>
+                <li class="listItem">Check doors and windows closed</li>
+                <li class="listItem">Pack dog bed</li>
+            </ul>
+        </div>
+    </div>
+    <div id="inputField">
+        <input type="text" id="listInput" placeholder="To do item">
+        <button id="submit">Submit</button>
+    </div>
+
+    <a href="https://google.com" class="link">Google</a>
+
+    <!--action="" is the URL the data is submitted to
+        GET is asking to read data
+        OST is saving data
+        PUT is editing data
+        DELETE is delting data-->
+    <form class="form" action="" method="get">
+        <label for="name">Enter name:
+            <input type="text" name="name">
+        </label>
+        <label for="email">Enter email:
+            <input type="text" name="email">
+        </label>
+        <button class="submit-form">Submit</button>
+    </form>
+
+
+    <!--Inline scripting-->
+
+    <!--
+    <script>
+        function sayName(name) {
+            alert(`Hello, ${name}`)
+        }
+        sayName('Lucy')
+    </script>
+    -->
+
+    <!--External file scripting (attaches app.js to this webpage) and this should always be put at the very bottom of the page.-->
+    <script src="app.js"></script>
+
+    <!--Bubbling example: when you click on paragraph, the onclicks for inner and out div also run since they are the pparents of the <p> element.-->
+    <div onlick="alert('outer div')">
+        OUTER DIV
+        <div onclick="alert('inner div')">
+        INNER DIV
+        <p onclick="alert('paragraph'); event.stopPropagation()">Paragraph</p>
+        </div>
+    </div>
+</body>
+</html>

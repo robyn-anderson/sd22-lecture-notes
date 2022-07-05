@@ -1,0 +1,24 @@
+body {
+    background-color: #bebebe;
+}
+
+h4 {
+    font-family: Trebuchet MS, sans-serif;
+}
+
+p {
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#pic-from-outside {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+header {
+    width: 250px;
+    height: 75px;
+    background-image: url("https://uploads-ssl.webflow.com/5f4577933a0688792f77983b/5ffcaf5bf69d7dbee581b8e3_01_11-21_UPRIGHT_LOGO_800.png");
+    background-size: cover;
+}

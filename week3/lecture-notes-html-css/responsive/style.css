@@ -1,0 +1,31 @@
+body {
+    background-color: #bebebe;
+}
+
+.nav {
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .nav {
+        position: relative;
+    }
+}
+
+@media print, (min-width: 320px) { /* The comma works as an "or"*/
+    .nav {
+        position: relative;
+    }
+}
+
+@media print {
+    .nav {
+        position: relative;
+    }
+}
+
+li {
+    list-style-type: none;
+}

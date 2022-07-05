@@ -1,0 +1,15 @@
+body {
+    background-color: ivory;
+}
+
+.h2-element {
+    text-align: center;
+    color:cornflowerblue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 10;
+}
+
+#inputField {
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+div {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+input {
+    margin: .5vw 0 2vw 0;
+  }
+
+button {
+    margin: 1vw 0 1vw 0;
+}

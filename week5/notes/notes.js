@@ -1,4 +1,13 @@
 /*
+
+  Create a new react app:
+    * cd into the folder where you want to create the new react app
+    * in terminal type: 
+      * create-react-app folder-name
+      * where folder-name is the name of the new react app (it cannot contain capital letters)
+    * this will take a few minutes
+
+
     NPM = node package manager
     npm -g list = list of (something??)
     npm i -g - installs the package (i for install) globally (-g)
@@ -38,5 +47,9 @@ Begin by typing:
     * setupTests.js - use for testing out logic issues
     * index.js - this holds the info that goes to the root in index.html for rendering on the page
     * app.js - the main component of the react application (most of work is done here)
-    * 
+  
+  Install React Router:
+    * npm i react-router-dom@6
+
+  rfce + tab to quickly build boiler-plate of components
 */

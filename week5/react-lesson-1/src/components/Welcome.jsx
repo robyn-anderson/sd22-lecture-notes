@@ -17,14 +17,21 @@ const Welcome = (props) => {
     //if (myName === undefined) {
       //setMyName('Nick')
     //}
-  
+
+    function removeFromNames() {
+      console.log(props.oneName)
+         const updatedNames = props.allNames.filter(oneName => oneName !== props.oneName)
+         props.updateName(updatedNames)
+          // props.updateName([]) // Empties the names array when the dive (see below in return) is clicked
+    }
   
   return (
-    <>
+    <div onClick={removeFromNames}>
 
-      <h1 className={props.className}>Hello, {props.name}</h1>
+      <h1>Hello, {props.oneName}</h1>
+      <h2 className={props.className}>Hello, {props.name}</h2>
 
-    </>
+    </div>
   )
 }
 

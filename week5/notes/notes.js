@@ -8,10 +8,13 @@
     * this will take a few minutes
 
 
-    NPM = node package manager
+    NPM = node package manager (how to install things...?)
+
     npm -g list = list of (something??)
+
     npm i -g - installs the package (i for install) globally (-g)
 
+    
 Inside the directory, you can run several commands:
 
   npm start
